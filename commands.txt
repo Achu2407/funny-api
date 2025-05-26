@@ -15,7 +15,7 @@ docker exec -it <container-name> psql -U postgres -d jokes_db
 \dt
 
 -- See the first 10 jokes
-SELECT * FROM jokes LIMIT 10;
+SELECT * FROM jokes;
 
 -- Quit
 \q

@@ -2,13 +2,12 @@ package main
 
 import (
 	"encoding/json"
+	"github.com/joho/godotenv"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
-
-	"github.com/joho/godotenv"
 )
 
 // setupServer loads DB and mounts routes to simulate API server

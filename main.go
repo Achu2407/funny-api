@@ -31,7 +31,7 @@ type Meme struct {
 var db *sql.DB
 
 func setupDB() {
-	_ = godotenv.Load(".env") // loads from .env file silently
+	_ = godotenv.Load(".env") // loads from .env file
 
 	dsn := fmt.Sprintf(
 		"host=%s port=%s user=%s password=%s dbname=%s sslmode=disable",
